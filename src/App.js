@@ -1,8 +1,12 @@
-export default function App() {
+import React from 'react';
+import { Counter } from './features/counter/Counter';
+
+function App() {
   return (
-    <div>
-      Hello Redux!
+    <div className="App">
+        <Counter />
     </div>
   );
 }
 
+export default App;
